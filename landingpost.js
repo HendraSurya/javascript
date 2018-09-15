@@ -5,7 +5,7 @@
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dr);
   })();
 
-(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://yourjavascript.com/0410025934/related-posts-dte.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();
+(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://cdn.rawgit.com/HendraSurya/related-post/11e8404a/related-posts-dte.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();
 
 function resizeThumb(e,t){for(var s=document.getElementById(e),r=s.getElementsByTagName("img"),c=0;c<r.length;c++)r[c].src=r[c].src.replace(/\/s512\-c/,"/s"+t),r[c].width=t,r[c].height=t}resizeThumb("authorphoto",36);
 
